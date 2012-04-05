@@ -1,0 +1,37 @@
+<html>
+
+  <head>
+
+    <title>Canvas tutorial template</title>
+
+    <script type="text/javascript">
+
+      function draw(){
+
+        var canvas = document.getElementById('tutorial');
+
+        if (canvas.getContext){
+
+          var ctx = canvas.getContext('2d');
+
+        }
+
+      }
+
+    </script>
+
+    <style type="text/css">
+
+      canvas { border: 2px solid black; }
+
+    </style>
+
+  </head>
+
+  <body onload="draw();">
+
+    <canvas id="tutorial" width="500" height="500"></canvas>
+
+  </body>
+
+</html>
